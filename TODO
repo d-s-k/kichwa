@@ -1,0 +1,7 @@
+* make user queries that do i/o run in a separate thread
+- do (local-time:reread-timezone-repository) after KICHWA/WEATHER is loaded
+* provide method of generating geonames database via ASDF
+* cache city-timezone associations to speed up weather queries
+- write REMOVE-COMMAND
+* (somehow?) consolidate forecast information into short 5-day forecast
+* Remove instances of (FORMAT T ...) and the like - replace with logger
